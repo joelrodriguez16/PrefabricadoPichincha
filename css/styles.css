@@ -1,0 +1,74 @@
+/* Estilo general para los productos */
+.producto {
+    border: 5px solid #ff8929;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Estilo para las imágenes de los productos */
+.producto img {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto;
+    display: block; /* Para centrar la imagen horizontalmente */
+    margin: 0 auto;
+}
+
+/* Estilo para los títulos de los productos */
+.producto h2 {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+/* Estilo para la descripción de los productos */
+.producto p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* Estilo para el precio de los productos */
+.producto p.precio {
+    font-size: 26px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Estilo para el botón de reserva */
+.producto button {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Estilo para el botón de reserva al pasar el ratón (hover) */
+.producto button:hover {
+    background-color: #b30000;
+}
+
+/* Estilos CSS para el botón "Genera tu Reserva" */
+.button-genera-reserva {
+    position: fixed;
+    background-color: #db0909; /* Color de fondo del botón */
+    color: #fff; /* Color de texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón (ajusta según sea necesario) */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse sobre el botón */
+    font-size: 16px; /* Tamaño de fuente del botón */
+    margin-top: 10px; /* Espacio superior para separar el botón del contenido anterior */
+    
+    right: 20px;
+    z-index: 1000;
+}
+
+.button-genera-reserva:hover {
+    background-color: #ff6600; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+}
+
+
+
